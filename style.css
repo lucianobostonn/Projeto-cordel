@@ -17,31 +17,30 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* Para colocar todas as letras em Maiúsculas, digito "text-transform:uppercase */
 body{
-    color: white;
-    
+    min-height: 100vh;
 }
 
 header{
     text-align: center;
     background-color: black;
     font-family: "Passion One";
+    color: white;
     padding-top: 15px;
     padding-bottom: 40px;
 }
 
 header > h1{
-    font-size: 135px;
+    font-size: 190px;
     padding-top: 40px;
+    font-variant: small-caps;
 }
 
 header > p{
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 16px;
-}
-
-span{
-    font-size: 190px;
 }
 
 main{
@@ -100,4 +99,5 @@ footer{
     background-color: black;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
